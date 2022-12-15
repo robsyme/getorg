@@ -1,3 +1,4 @@
+nextflow.enable.dsl=2
 
 params.reads = 'ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR826/005/SRR8269015/SRR8269015_subreads.fastq.gz'
 params.genome = 'data/NC_029641.1.fasta'
