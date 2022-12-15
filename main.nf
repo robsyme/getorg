@@ -40,7 +40,6 @@ process GetOrganelle {
 
 workflow {
     reads = Channel.fromPath(params.reads)
-    org = Channel.fromPath(params.getorg)
-
-    GetOrganelle(reads, org)
+    GetConfig()
+    GetOrganelle(reads, GetConfig.out)
 }
