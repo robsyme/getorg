@@ -12,7 +12,7 @@ process GetConfig {
 
     """
     curl -L https://github.com/Kinggerm/GetOrganelleDB/releases/download/0.0.1/v0.0.1.tar.gz | tar zx
-    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./config
+    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.1
     """
 }
 
