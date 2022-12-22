@@ -8,7 +8,7 @@ process GetConfig {
     conda 'bioconda::getorganelle procps-ng curl'
 
     output:
-    path("config")
+    path("0.0.1")
 
     """
     curl -L https://github.com/Kinggerm/GetOrganelleDB/releases/download/0.0.1/v0.0.1.tar.gz | tar zx
