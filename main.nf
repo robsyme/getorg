@@ -5,7 +5,7 @@ params.genome = 'data/NC_029641.1.fasta'
 params.configname = 'embplant_mt'
 
 process GetConfig {
-    conda 'bioconda::getorganelle procps-ng'
+    conda 'bioconda::getorganelle procps-ng curl'
 
     output:
     path("config")
