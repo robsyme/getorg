@@ -17,7 +17,7 @@ process GetConfig {
 }
 
 process GetOrganelle {
-    conda 'bioconda::getorganelle'
+    conda 'bioconda::getorganelle procps-ng curl'
 
     input:
     path(reads)
